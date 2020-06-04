@@ -1,0 +1,123 @@
+/* ----------------- Specification global rule -----------------*/
+
+*,
+*::before,
+ ::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+/* ----------------- Body -----------------*/
+
+body {
+    background-image: url(../assets/images/images/background.png);
+    ;
+}
+
+
+/* ----------------- Header -----------------*/
+
+.header {
+    padding-top: 35px;
+}
+
+
+/* ----------------- Logo -----------------*/
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 44px;
+}
+
+
+/* ----------------- Navigation -----------------*/
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu__item {
+    line-height: 1;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 60px;
+}
+
+.menu__item a {
+    font-size: 24px;
+    color: #474747;
+}
+
+p1 {
+    font-size: 14px;
+    color: #a5a5a5;
+}
+
+ul,
+li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ----------------- Footer -----------------*/
+
+.footer_line {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-height: 75px;
+    height: 100%;
+    width: 1920px;
+    max-width: 100%;
+    background: url(../assets/images/images/Footer_line_main_02.png);
+    color: #9b9b9b;
+    font-size: 10px;
+}
+
+.bg {
+    height: 1200px;
+}
+
+
+/* ----------------- Media request -----------------*/
+
+
+/* ----------------- Media request for header -----------------*/
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        text-align: center;
+        margin: auto auto;
+    }
+    .menu__item {
+        margin: auto 10px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    p1 {
+        font-size: 10px;
+    }
+    .menu__item {
+        margin: auto 5px;
+    }
+    .menu__item a {
+        font-size: 20px;
+    }
+}
