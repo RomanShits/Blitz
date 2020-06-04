@@ -1,0 +1,247 @@
+/* ----------------- Specification global rule -----------------*/
+*, *::before, ::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* ----------------- Body -----------------*/
+body {
+  background-image: url(../assets/images/background.png);
+}
+
+/* ----------------- Header -----------------*/
+.header {
+  padding-top: 35px;
+}
+
+/* ----------------- Logo -----------------*/
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 44px;
+}
+
+/* ----------------- Navigation -----------------*/
+.menu {
+  margin-top: 10px;
+}
+
+.menu__item {
+  line-height: 1;
+  font-family: "Bebas Neue", cursive;
+  margin-left: 60px;
+}
+
+.menu__item a {
+  font-size: 24px;
+  color: #474747;
+}
+
+p1 {
+  font-size: 14px;
+  color: #a5a5a5;
+}
+
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------blog---------- */
+img{
+  width: 825px;
+}
+.line_blog{
+    background: url(images/line.jpg);
+   height: 6px;
+   width: 100%;
+   
+  
+}
+/* ----------------about blitz-------- */
+.about__blitz {
+  margin-right: 0;
+  font-family: "Bebas Neue", cursive;
+  font-size: 15pt;
+  padding-top: 125px;
+  left: 0;
+  right: 0; 
+}
+.line_about{
+  background: url(../assets/images/line.jpg);
+ height: 6px;
+ width: 100%;
+ 
+}
+.text_about{
+  font-family: 'Helvetica Neue';
+  font-size: 11pt;
+  color: #464646;
+  margin: 0;
+ width: 250px;
+ padding-top: 10px;
+}
+.about_title{
+  font-family: "Bebas Neue";
+  font-size: 12pt; 
+}
+.about_title_text{
+  padding-top: 30px;
+  font-family: "Bebas Neue";
+  font-size: 12pt;
+}
+dfn{
+ 
+  color: #bababa;
+  font-family: 'Helvetica Neue';
+  font-size:11pt ;
+}
+.about_text_ago{
+  font-family: 'Helvetica Neue';
+  color: #bababa;
+  font-size:11pt ;
+  padding-top: 10px;
+}
+/*-----------blog post1---------- */
+.blog_title{
+  font-size: 24pt;
+  padding-top: 65px;
+  
+}
+.blog_text{
+  font-family: 'Helvetica Neue';
+  font-size: 12pt;
+  color: #d8d8d8;
+  
+}
+.post_top{
+ 
+  font-family: "Bebas Neue", cursive;
+  font-size: 15pt;
+  margin-top: 65px;
+}
+.info_col-lg-2{
+  left: 0;
+}
+.post_top_text_date{
+  font-family: "Bebas Neue", cursive;
+  font-size: 12pt;
+  padding-top: 26px;
+  margin: 0;
+}
+.post_text_top{
+  font-family: 'Helvetica Neue';
+  font-size: 11pt;
+  color: #cccccc;
+  padding-top: 3px;
+}
+.post_top_text_date_top{
+  font-family: "Bebas Neue", cursive;
+  font-size: 12pt;
+  padding-top: 10px;
+  margin: 0;
+}
+.lorem_ipsum{
+  font-family: 'HelveticaNeue-Medium';
+  font-size: 12pt;
+  padding-top:30px ;
+}
+.meecenas{
+  font-family: 'HelveticaNeue-Medium';
+  font-size: 12pt;
+  padding-top:30px
+}
+.line_for_post{
+  margin-top: 60px;
+  background: url(images/line.jpg);
+ height: 6px;
+ width: 75%;
+ 
+}
+/*---------------blog post2------- */
+.post_Amazing{
+  font-family: "Bebas Neue", cursive;
+  font-size: 15pt;
+  margin-top: 65px; 
+}
+/*--------------blog post3---------- */
+.post_Best{
+  font-family: "Bebas Neue", cursive;
+  font-size: 15pt;
+  margin-top: 65px; 
+}
+/* ----------------- Footer -----------------*/
+.footer_line {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-height: 75px;
+  height: 100%;
+  width: 1920px;
+  max-width: 100%;
+  background: url(../assets/images/Footer_line_main_02.png);
+  color: #9b9b9b;
+  font-size: 10px;
+}
+/* ----------------- Media request for header -----------------*/
+@media screen and (min-width: 1200px) {
+  .nav {
+    float: right;
+  }
+}
+@media screen and (max-width: 992px) {
+  .logo {
+    display: block;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu {
+    text-align: center;
+    margin: auto auto;
+  }
+
+  .menu__item {
+    margin: auto 10px;
+  }
+}
+@media screen and (max-width: 420px) {
+  p1 {
+    font-size: 10px;
+  }
+
+  .menu__item {
+    margin: auto 5px;
+  }
+
+  .menu__item a {
+    font-size: 20px;
+  }
+}
+/* ----------------- Media request -----------------*/
+@media screen and (max-width: 1200px){
+  .about__blitz{
+    padding-top: 0;
+    margin-top: 60px;
+  background: url(images/line.jpg);
+  width: 30%;  
+  }
+.line_for_post{
+ width: 100%;
+}
+img{
+  width: 100%;
+  }
+}
+@media screen and (max-width: 1000px){
+  .about__blitz{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 770px){
+  .about__blitz{
+    width: 50%;
+  }
+}
